@@ -151,7 +151,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 */
 const lowPopulationAnimals = [];
 let lowPopulation = zooAnimals.filter((lower) => {
-  return lower.population > 5;
+  return lower.population < 5;
 });
 console.log(lowPopulation);
 
@@ -161,11 +161,11 @@ The zoos need to know their total animal population across the United States. Fi
 
 */
 const populationTotal = 0;
-let popTotal = zooAnimals.reduce((populationTotal, populationAmount) => {
+let populationTotal = zooAnimals.reduce((populationTotal, populationAmount) => {
   return populationTotal + populationAmount.population;
 }, 0);
 
-console.log(popTotal);
+console.log(populationTotal);
 
 /*
 
