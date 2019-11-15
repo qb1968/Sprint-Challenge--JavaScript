@@ -28,15 +28,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+1. Describe the biggest difference between `.forEach` & `.map`. foreach will allow a callback, map will return a new array 
+
 
 2. What is the difference between a function and a method?
+Function can be passed data and return data. Method  is associated with an object.
 
-3. What is closure?
+3. What is closure? gives you access to an outer function scoope from an inner function.
+
 
 4. Describe the four rules of the 'this' keyword.
+-window object inside of a function
+-if apply or call or bind is used it is an argument
+-when dot is to the left for invoking 
+-refers to specific instance of object
 
 5. Why do we need super() in an extended class?
+To call the methods of the Parent class
 
 ## Project Set up
 
